@@ -13,7 +13,7 @@ python3 -m http.server 8000 --bind 0.0.0.0
 
 - Impostare `WHATSAPP_NUMBER` in `app.js` con il numero ufficiale, prefisso internazionale incluso, senza `+`, spazi o simboli.
 - Sostituire piatti, prezzi e testi dimostrativi con quelli approvati dal ristorante. Aggiungere informazioni ufficiali su allergeni, sede, orari e contatti.
-- Le illustrazioni sono SVG locali dimostrativi; il sito usa font di sistema e non richiede risorse esterne.
+- Il layout editoriale usa font di sistema e non richiede risorse esterne. Le fotografie ufficiali sono da integrare quando disponibili.
 
 Il modulo compone una richiesta e apre WhatsApp, dove l'utente deve inviarla. Non memorizza i dati e non conferma automaticamente il tavolo. Senza numero configurato mostra solo l'anteprima del messaggio.
 
